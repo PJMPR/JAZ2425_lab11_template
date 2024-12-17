@@ -27,26 +27,12 @@ docker pull mariadb
 Uruchom kontener za pomocą poniższej komendy, dostosowując ustawienia według swoich potrzeb:
 
 ```bash
-docker run -d \
-  --name mariadb-container \
-  -e MARIADB_ROOT_PASSWORD=twojeHaslo \
-  -e MARIADB_DATABASE=twojaBazaDanych \
-  -e MARIADB_USER=twojUzytkownik \
-  -e MARIADB_PASSWORD=hasloDlaUzytkownika \
-  -p 3306:3306 \
-  mariadb
+docker run -d --name mariadb-container -e MARIADB_ROOT_PASSWORD=password -e MARIADB_DATABASE=westeros -e MARIADB_USER=pjwstk -e MARIADB_PASSWORD=p -p 3306:3306 mariadb
 ```
 
 #### Przykład:
 ```bash
-docker run -d \
-  --name mariadb-container \
-  -e MARIADB_ROOT_PASSWORD=superHaslo \
-  -e MARIADB_DATABASE=mojaBaza \
-  -e MARIADB_USER=uzytkownikTestowy \
-  -e MARIADB_PASSWORD=mocneHaslo \
-  -p 3306:3306 \
-  mariadb
+docker run -d --name mariadb-container -e MARIADB_ROOT_PASSWORD=superHaslo -e MARIADB_DATABASE=mojaBaza -e MARIADB_USER=uzytkownikTestowy -e MARIADB_PASSWORD=mocneHaslo -p 3306:3306 mariadb
 ```
 
 ---
