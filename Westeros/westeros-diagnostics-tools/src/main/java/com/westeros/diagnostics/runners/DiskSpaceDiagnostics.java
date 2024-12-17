@@ -1,7 +1,9 @@
 package com.westeros.diagnostics.runners;
 
 import com.westeros.diagnostics.services.contract.Diagnostics;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DiskSpaceDiagnostics implements IDiagnose {
 
     @Override
