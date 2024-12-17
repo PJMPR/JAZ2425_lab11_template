@@ -20,6 +20,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-diagnostics-tools" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/westeros-diagnostics-tools" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-movies-client" />
         <option name="gradleJvm" value="21" />
         <option name="modules">
@@ -43,6 +51,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/westeros-data" />
+            <option value="$PROJECT_DIR$/westeros-diagnostics-tools" />
             <option value="$PROJECT_DIR$/westeros-web-api" />
           </set>
         </option>

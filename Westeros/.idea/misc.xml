@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/westeros-data" />
     <file type="web" url="file://$PROJECT_DIR$/westeros-diagnositics-service" />
+    <file type="web" url="file://$PROJECT_DIR$/westeros-diagnostics-tools" />
     <file type="web" url="file://$PROJECT_DIR$/westeros-movies-client" />
     <file type="web" url="file://$PROJECT_DIR$/westeros-updater" />
     <file type="web" url="file://$PROJECT_DIR$/westeros-web-api" />
